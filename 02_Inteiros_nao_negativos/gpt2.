@@ -1,0 +1,13 @@
+esq - 1
+dir = n
+equanto esq < dir faça
+    meio = piso(esq+dir) / 2
+    se k > A[meio].chave entao
+        esq = meio + 1
+    senao
+        dir = meio
+
+se A[esq].chave == k entao 
+    devolve esq
+
+devolve -1
